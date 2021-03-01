@@ -2,6 +2,7 @@
 
 An extension to the standard `dict` for Python 3.x. It allows you to call values as attributes:
 ```python
+>> from pythonmap import Map
 >> m = Map({'first_name': 'Eduardo'}, last_name='Pool', age=24, sports=['Soccer'])
 >> m['age']
 24
@@ -11,6 +12,7 @@ An extension to the standard `dict` for Python 3.x. It allows you to call values
 
 Inner dictionaries are automatically translated to maps too, so the dot operator can be chained:
 ```python
+>> from pythonmap import Map
 >> m = Map({'x': {'A': 1, 'B':2 }})
 >> m.x
 {'A': 1, 'B':2 }
