@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.0.1'
-PACKAGE_NAME = 'python_map'
+PACKAGE_NAME = 'pythonmap'
 AUTHOR = 'Shaked Zychlinski'
 AUTHOR_EMAIL = 'shakedzy@gmail.com'
-URL = 'https://github.com/shakedzy/python_map'
+URL = 'https://github.com/shakedzy/pythonmap'
 
 LICENSE = 'MIT License'
 DESCRIPTION = 'An extension to the standard dictionary for Python 3.x'

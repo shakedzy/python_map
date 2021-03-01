@@ -11,7 +11,7 @@ An extension to the standard `dict` for Python 3.x. It allows you to call values
 
 Installing:
 ```
-pip install git+https://github.com/shakedzy/python_map
+pip install git+https://github.com/shakedzy/pythonmap
 ```
 
 Original code taken from [This StackOverflow Answer](https://stackoverflow.com/a/32107024/5863503).
