@@ -2,3 +2,4 @@
 build/*
 dist/*
 pythonmap.egg-info/*
+pythonmap/__pycache__/*

@@ -4,10 +4,10 @@ class Map(dict):
         for arg in args:
             if isinstance(arg, dict):
                 for k, v in arg.items():
-                    self[k] = v
+                    self[k] = v if not isinstance(v, dict) else Map(v)
         if kwargs:
             for k, v in kwargs.items():
-                self[k] = v
+                self[k] = v if not isinstance(v, dict) else Map(v)
 
     def __getattr__(self, attr):
         return self.get(attr)
